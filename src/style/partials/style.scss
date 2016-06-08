@@ -1,0 +1,369 @@
+$dark-blue:     #021524 !default;
+
+
+.cl {clear: both;}
+
+html, p, a, input, button, body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    //height: 660px;
+    background-image: url('../img/bg-01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 18px;
+    .head {
+        .logo {
+            text-align: left;
+        }
+        .address {
+            font-size: 14px;
+            text-align: center;
+            font-weight: bold;
+            color: #2f2f2f;
+        }
+        .phone {
+            p {
+                text-align: right;
+                margin: 0;
+                line-height: 1;
+                color: $dark-blue;
+                font-weight: bold;
+                font-size: 24px;
+                span {
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .title {
+        .wrap {
+            display: table;
+            height: 80vh;
+            width: 100%;
+            text-align: center;
+            .text {
+                display: table-cell;
+                vertical-align: middle;
+                height: 100%;
+                width: 100%;
+                .h1 {
+                    font-size: 100px;
+                    font-weight: 900;
+                    line-height: 1.2;
+                    color: $dark-blue;
+                    span {
+                        font-size: 48px;
+                    }
+                    .small {
+                        font-size: 34px;
+                        display: block;
+                        line-height: 2;
+                        color: $dark-blue;
+                        font-weight: 900;
+                    }
+                }
+                .price-download {
+                    .frame {
+                        display: inline-block;
+                        padding: 4px;
+                        border: 1px #FFF solid;
+                        border-radius: 50px;
+                        background: #cacaca;
+                        .button {
+                            font-size: 24px;
+                            color: #fff;
+                            background: #b90307;
+                            border-radius: 50px;
+                            border: 1px #fff solid;
+                            display: block;
+                            margin: 0 auto;
+                            padding: 5px 15px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#beton_02 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .title {
+        font-size: 60px;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        color: $dark-blue;
+        line-height: 1.4;
+        margin-bottom: 65px;
+        span {
+            font-size: 30px;
+            display: block;
+        }
+    }
+    .blocks {
+        width: 100%;
+        .item {
+            text-align: center;
+            margin-bottom: 40px;
+            .text-wrap {
+                display: table;
+                height: 200px;
+                width: 220px;
+                margin: 0 auto;
+                background: rgb(9,59,99);
+                background: -moz-radial-gradient(center, ellipse cover,  rgba(9,59,99,1) 0%, rgba(5,35,59,1) 100%);
+                background: -webkit-radial-gradient(center, ellipse cover,  rgba(9,59,99,1) 0%,rgba(5,35,59,1) 100%);
+                background: radial-gradient(ellipse at center,  rgba(9,59,99,1) 0%,rgba(5,35,59,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#093b63', endColorstr='#05233b',GradientType=1 );
+                .text {
+                    display: table-cell;
+                    vertical-align: middle;
+                    text-align: center;
+                    width: 100%;
+                    height: 100%;
+                    .p01 {
+                        font-size: 37px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        color: #fff;
+                        line-height: 1;
+                    }
+                    .p02 {
+                        font-size: 60px;
+                        font-weight: 900;
+                        color: #fff;
+                        text-align: center;
+                        text-transform: uppercase;
+                        line-height: 1;
+                    }
+                    a {
+                        font-size: 18px;
+                        text-align: center;
+                        color: #1bbae2;
+                        font-weight: bold;
+                        text-decoration: underline;
+                        cursor: pointer;
+                        text-transform: lowercase;
+                    }
+                }
+            }
+        }
+    }
+}
+#beton_03 {
+    background: #d9e4e6;
+    -webkit-transform: skewY(7deg);
+    transform: skewY(7deg);
+    padding: 40px 0;
+    .container {
+        -webkit-transform: skewY(-7deg);
+        transform: skewY(-7deg);
+    }
+    .title {
+        font-size: 60px;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        color: $dark-blue;
+        line-height: 1.4;
+        margin-bottom: 65px;
+        span {
+            font-size: 30px;
+            display: block;
+        }
+    }
+    .blocks-01 {
+        .item {
+            text-align: center;
+            margin-bottom: 50px;
+            .wrap {
+                width: 304px;
+                margin: 0 auto;
+                display: block;
+                img {
+                    width: 100%;
+                }
+                p {
+                    font-size: 21px;
+                    line-height: 1;
+                    margin: 10px 0;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .blocks-02 {
+        .left {.wrap {margin: 0 15px 50px auto !important;}}
+        .right {.wrap {margin: 0 auto 50px 15px !important;}}
+        
+        .item {
+            text-align: center;
+            margin-bottom: 50px;
+            .wrap {
+                width: 304px;
+                margin: 0 auto;
+                display: block;
+                img {
+                    width: 100%;
+                }
+                p {
+                    font-size: 21px;
+                    line-height: 1;
+                    margin: 10px 0;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+#beton_04 {
+    padding: 230px 0;
+    background-image: url(../img/bg-04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -130px;
+    margin-bottom: -130px;
+    p {color: #fff;}
+    .p01 {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 40px;
+        span {
+            text-transform: uppercase;
+            color: #000;
+            background: #d9e4e6;
+            display: inline-block;
+        }
+    }
+    .p02 {
+        font-size: 24px;
+        line-height: 1;
+    }
+}
+#beton_05 {
+    background: #fff;
+    -webkit-transform: skewY(7deg);
+    transform: skewY(7deg);
+    padding: 75px 0 40px 0;
+    height: 280px;
+    .container {
+        -webkit-transform: skewY(-7deg);
+        transform: skewY(-7deg);
+    }
+    .left {
+        .p01 {
+            font-size: 110px;
+            text-transform: uppercase;
+            color: #1bbae2;
+            text-align: center;
+            margin: 0;
+            font-weight: 900;
+        }
+        .p02 {
+            font-weight: 900;
+            text-align: center;
+            color: #000;
+            font-size: 36px;
+            margin-bottom: 100px;
+        }
+        .price-download {
+            text-align: center;
+            width: 100%;
+            display: block;
+            .frame {
+                display: inline-block;
+                padding: 4px;
+                border: 1px #FFF solid;
+                border-radius: 50px;
+                background: #cacaca;
+                .button {
+                    font-size: 24px;
+                    color: #fff;
+                    background: #b90307;
+                    border-radius: 50px;
+                    border: 1px #fff solid;
+                    display: block;
+                    margin: 0 auto;
+                    padding: 5px 15px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .right {
+        img {
+            float: left;
+        }
+    }
+}
+#beton_06 {
+    background: #e9e9e9;
+    padding: 190px 0;
+    margin-top: -125px;
+}
+
+#beton_07 {
+    padding: 40px 0;
+    .title {
+        font-size: 60px;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        color: $dark-blue;
+        line-height: 1.4;
+        margin-bottom: 65px;
+    }
+    .phone {
+        color: $dark-blue;
+        .p01 {
+            font-size: 18px;
+            font-weight: 900;
+            padding-left: 35px;
+            background-image: url('../img/ic-phone.jpg');
+            background-position: left center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 33px;
+            line-height: 1.8;
+        }
+        .p02 {
+            font-size: 24px;
+            font-weight: 700;
+            margin: 0;
+            line-height: 1;
+            padding-left: 45px;
+            span {
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+    }
+    .address {
+        color: $dark-blue;
+        .p01 {
+            font-size: 18px;
+            font-weight: 900;
+            padding-left: 35px;
+            background-image: url('../img/ic-address.jpg');
+            background-position: left center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 33px;
+            line-height: 1.8;
+        }
+        .p02 {
+            font-size: 18px;
+            font-weight: 900;
+            margin: 0;
+            line-height: 1;
+        }
+    }
+}
