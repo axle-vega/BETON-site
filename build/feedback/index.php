@@ -10,59 +10,8 @@ $form = array();
 $host = $_SERVER['HTTP_HOST'];
 $ref = $_SERVER['HTTP_REFERER'];
 
-$form['form-0'] = array(
-	'fields' => array(
-		'tell' => array(
-			'title' => 'Телефон',
-			'validate' => array(
-				
-				'minlength' => '1',
-			),
-			'messages' => array(
-				'preg' => 'Телефон возможно содержит ошибку',
-				'minlength' => 'Слишком корткий номер телефона',
-			)
-		),
-	),
-	'cfg' => array(
-		'charset' => 'utf-8',
-		'subject' => 'Заявка с сайта МОТОРХАУС.РФ',
-		'title' => 'Заявка с сайта МОТОРХАУС.РФ',
-		'ajax' => false,
-		'validate' => true,
-		'from_email' => 'no-reply@starta.ru',
-		'from_name' => 'Заявка с сайта МОТОРХАУС.РФ',
-		'to_email' => 'info@motorhaus.ru,web@starta.ru',
-		'to_name' => 'info,web',
-		'geoip' => true,
-		'referer' => true,
-		'type' => 'html',
-		'tpl' => true,
-		'antispam' => 'email77',
-		'antispamjs' => 'address77',
-		'okay' => 'Сообщение отправлено',
-		'fuck' => 'Сообщение не отправлено',
-		'spam' => 'Cпам робот',
-		'notify' => 'redirect-color-textbox',
-		'usepresuf' => false,
-		'redirect' => 'order-ok.html'
-	)
-);
-
-
 $form['form-1'] = array(
 	'fields' => array(
-		'name' => array(
-			'title' => 'Имя',
-			'validate' => array(
-				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
-				'minlength' => '1',
-			),
-			'messages' => array(
-				'preg' => 'Имя возможно содержит ошибку',
-				'minlength' => 'Слишком короткое имя',
-			)
-		),
 		'tell' => array(
 			'title' => 'Телефон',
 			'validate' => array(
@@ -77,14 +26,14 @@ $form['form-1'] = array(
 	),
 	'cfg' => array(
 		'charset' => 'utf-8',
-		'subject' => 'Заявка с сайта МОТОРХАУС.РФ',
-		'title' => 'Заявка с сайта МОТОРХАУС.РФ',
+		'subject' => 'Заявка с сайта НиГ + скачали прайс',
+		'title' => 'Заявка с сайта НиГ + скачали прайс',
 		'ajax' => false,
 		'validate' => true,
 		'from_email' => 'no-reply@starta.ru',
-		'from_name' => 'Заявка с сайта МОТОРХАУС.РФ',
-		'to_email' => 'info@motorhaus.ru,web@starta.ru',
-		'to_name' => 'info,web',
+		'from_name' => 'Заявка с сайта НиГ + скачали прайс',
+		'to_email' => 'ooonig@yandex.ru, web@starta.ru',
+		'to_name' => 'ooonig, web',
 		'geoip' => true,
 		'referer' => true,
 		'type' => 'html',
@@ -96,9 +45,11 @@ $form['form-1'] = array(
 		'spam' => 'Cпам робот',
 		'notify' => 'redirect-color-textbox',
 		'usepresuf' => false,
-		'redirect' => 'order-ok.html'
+		'redirect' => 'order-price.html'
 	)
 );
+
+
 $form['form-2'] = array(
 	'fields' => array(
 		'name' => array(
@@ -126,14 +77,14 @@ $form['form-2'] = array(
 	),
 	'cfg' => array(
 		'charset' => 'utf-8',
-		'subject' => 'Заявка с сайта',
-		'title' => 'Заявка с сайта',
+		'subject' => 'Заявка с сайта НиГ',
+		'title' => 'Заявка с сайта НиГ',
 		'ajax' => false,
 		'validate' => true,
 		'from_email' => 'no-reply@starta.ru',
-		'from_name' => 'Заявка с сайта МОТОРХАУС.РФ',
-		'to_email' => 'info@motorhaus.ru,web@starta.ru',
-		'to_name' => 'info,web',
+		'from_name' => 'Заявка с сайта НиГ',
+		'to_email' => 'ooonig@yandex.ru, web@starta.ru',
+		'to_name' => 'ooonig, web',
 		'geoip' => true,
 		'referer' => true,
 		'type' => 'html',
@@ -148,6 +99,7 @@ $form['form-2'] = array(
 		'redirect' => 'order-ok.html'
 	)
 );
+
 
 
 if($act == 'cfg') {
